@@ -89,257 +89,138 @@ export const fundamentalsCollection = {
 			]
 		},
 		{
-			name: "CSS",
+			name: "2학년",
 			skills: [
 				{
-					name: "Syntax",
-					description: {
-						text: "Learn the basics of CSS and get comfortable with it's syntax and main concepts.",
-						links: [
-							["MDN - CSS Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics"],
-							["W3Schools - CSS Tutorial", "https://www.w3schools.com/css/default.asp"],
-							["Supercharged - CSS Selectors", "https://www.youtube.com/watch?v=IKho_xDKaLw"],
-							["MDN - CSS first steps", "https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps"],
-							["MDN - CSS building blocks", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks"],
-							["MDN - CSS values and units", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units"],
-							["MDN - CSS Syntax", "https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax"],
-						]
-					}
-				},
-				{
-					name: "Selectors",
-					description: {
-						text: "Learn about CSS selectors and how to effeciently target DOM elements.",
-						links: [
-							["MDN - CSS selectors", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors"],
-							["MDN - All selectors", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors"],
-							["CSS Tricks - Child and Sibling Selectors", "https://css-tricks.com/child-and-sibling-selectors/"],
-							["CSS Tricks - All Selectors", "https://css-tricks.com/almanac/selectors/"],
-							["W3Schools - CSS Combinators", "https://www.w3schools.com/css/css_combinators.asp"]
-						]
-					},
+					name: "2학년",
 					skills: [
 						{
-							name: "Specificity",
-							description: {
-								text: "Learn what specificity means and how to use it when writing CSS.",
-								links: [
-									["MDN - Specificity", "https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity"],
-									["MDN - Cascade and inheritance", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance"],
-									["dev.to - CSS Specificity", "https://dev.to/emmawedekind/css-specificity-1kca"],
-									["Specificity Calculator", "https://specificity.keegan.st/"],
-									["W3Schools - CSS Specificity", "https://www.w3schools.com/css/css_specificity.asp"]
-								]
-							},
+							name: "1학기",
+							skills: [
+								{
+											name: "자료구조",
+											description: {
+												text: "반드시 알아야 하는 자료구조인 array, stacks, queues, linked lists, tree, graphs, heaps, B tree 등에 대해 다룹니다. 또한 중요한 정렬 알고리즘에 대해서도 공부할 것입니다.",
+												links: [
+													["위키백과 - 자료 구조", "https://ko.wikipedia.org/wiki/자료_구조"],
+												]
+											},
+											
+										},
+										{
+											name: "컴퓨터구조",
+											description: {
+												text: "개인 컴퓨터, 서버, 임베디드 기기에 쓰이는 일반적인 컴퓨터의 구조적 기능에 대해 알아봅니다. 파이프라이닝의 기본에 대한 이해, 캐시 메모리 계층, 메모리 시스템, 스토리지, I/O 시스템에 대해 알게 될 것입니다."
+											}
+										},
+										{
+											name: "소프트웨어실전영어",
+											description: {
+												text: "운영체제, 컴퓨터 구조, 자료구조, 프로그래밍 언어, 네트워크 같은 컴퓨터 사이언스와 관련된 영어 표현과 개념을 배웁니다. 또한 소프트웨어 주제에 대해 영어로 소통하는 방법에 대해 연습합니다."
+											}
+										},
+										{
+											name: "객체지향프로그래밍",
+											description: {
+												text: "객체지향 프로그래밍 언어인 C++의 이론과 실습을 통해 객체 지향 프로그래밍 실력을 발전시킵니다.",
+												links: [
+													["위키백과 - 객체 지향 프로그래밍", "https://ko.wikipedia.org/wiki/객체_지향_프로그래밍"]
+												]
+											}
+										},
+										{
+											name: "선형대수학",
+											description: {
+												text: "매트릭스 이론과 선형 대수학 및 컴퓨터 사이언스에서 유용한 주제들에 대해 다룹니다. 선형대수학의 기본 개념과 여러 분야에서의 사용에 대해 이해하는 것이 학습 목표입니다.",
+												links: [
+													["위키백과 - 선형대수학", "https://ko.wikipedia.org/wiki/선형대수학"]
+												]
+											}
+										},
+										{
+											name: "미래설계구현",
+											description: {
+												text: "인턴쉽과 회사의 비즈니스 목적에 대해 이해합니다. 취업을 위해 자기소개서를 쓰는 법과 면접 준비, 실무 기술을 익힙니다."
+											}
+										},
+										{
+											name: "오픈소스기초프로젝트",
+											description: {
+												text: "유명한 오픈소스 언어 중 하나인 파이썬에 대해 배우고 파이썬 프로젝트를 설계합니다. 프로젝트 관리를 위해 오픈소스 툴인 GitHub에 대해 다룹니다.",
+												links: [
+													["위키백과 - 오픈 소스", "https://ko.wikipedia.org/wiki/오픈_소스"]
+												]
+											}
+										}
+							]
 						},
 						{
-							name: "Pseudo Selectors",
-							description: {
-								text: "Learn how to use pseudo selectors.",
-								links: [
-									["MDN - Pseudo-classes", "https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes"],
-									["CSS Tricks - Meet the Pseudo Class Selectors", "https://css-tricks.com/pseudo-class-selectors/"],
-									["When do the :hover, :focus, and :active pseudo-classes apply?", "https://bitsofco.de/when-do-the-hover-focus-and-active-pseudo-classes-apply/"],
-									["W3Schools - CSS Pseudo-elements", "https://www.w3schools.com/css/css_pseudo_elements.asp"],
-									["W3Schools - CSS Pseudo-classes", "https://www.w3schools.com/css/css_pseudo_classes.asp"],
-								]
-							},
-						},
+							name: "2학기",
+							skills: [
+										{
+											name: "알고리즘",
+											description: {
+												text: "알고리즘을 분석하고 설계할 수 있는 기본적인 기술에 대해 소개합니다. Divide and Conquer, Dynamic Programming, Greedy Approach, Backtracking, Branch and Bound 등에 대해 다룹니다.",
+												links: [
+													["위키백과 - 알고리즘", "https://ko.wikipedia.org/wiki/알고리즘"]
+												]
+											}
+										},
+										{
+											name: "프로그래밍언어론",
+											description: {
+												text: "프로그래밍 언어의 기본 개념과 설계 원칙에 대해 배웁니다. 다양한 언어와 다양한 개념을 사용해 프로그래밍합니다. Syntax, Semantics, Scopes, Control flow 등에 대해 다룹니다.",
+												links: [
+													["위키백과 - 프로그래밍 언어", "https://ko.wikipedia.org/wiki/프로그래밍_언어"]
+												]
+											}
+										},
+										{
+											name: "시스템프로그래밍",
+											description: {
+												text: "어셈블리 프로그래밍을 통해 컴퓨터 시스템의 저수준 개념을 다룹니다. 또한 어떻게 컴퓨터가 어플리케이션을 구동하고 정보를 저장하는지에 대해 배웁니다.",
+												links: [
+													["위키백과 - 어셈블리어", "https://ko.wikipedia.org/wiki/어셈블리어"]
+												]
+											}
+										},
+										{
+											name: "창업탐색",
+											description: {
+												text: "자신만의 스타트업을 구상해보는 것이 목적입니다. 필요한 정보를 수집하고 시장 조사를 수행하며, 비즈니스 모델을 구현합니다."
+											}
+										},
+										{
+											name: "오픈소스개발프로젝트",
+											description: {
+												text: "Java 언어를 배우고 Java 프로젝트를 설계합니다. GitHub과 Stackoverflow 같은 오픈소스 툴을 다루고 프로젝트 관리와 트러블 슈팅에 해당 툴을 사용합니다.",
+												links: [
+													["위키백과 - 자바", "https://ko.wikipedia.org/wiki/자바_(프로그래밍_언어)"],
+													["위키백과 - 깃허브", "https://ko.wikipedia.org/wiki/깃허브"],
+													["위키백과 - 스택 오버플로", "https://ko.wikipedia.org/wiki/스택_오버플로_(웹사이트)"],
+												]
+											}
+										},
+										{
+											name: "확률및통계",
+											description: {
+												text: "확률과 통계의 기본과 엔지니어링 및 컴퓨터 사이언스를 위한 통계에 대해 다룹니다. 일상생활의 문제해결을 위해 확률 이론을 적용하는 법을 배웁니다."
+											}
+										},
+										{
+											name: "컴퓨터그래픽스",
+											description: {
+												text: "geometric modeling, rendering, animation 등의 컴퓨터 그래픽스의 기본 주제들을 다룹니다. ThreeJS를 사용해 그래픽스 프로그래밍 기술을 배웁니다.",
+												links: [
+													["위키백과 - 컴퓨터 그래픽스", "https://ko.wikipedia.org/wiki/컴퓨터_그래픽스"],
+													["위키백과 - Three.js", "https://ko.wikipedia.org/wiki/Three.js"]
+												]
+											}
+										}
+									]
+								}
 					]
 				},
-				{
-					name: "Box Model",
-					description: {
-						text: "Learn what the CSS box model means.",
-						links: [
-							["MDN - Introduction to the CSS basic box model", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model"],
-							["MDN - The box model", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model"],
-							["CSS Tricks - Inheriting box-sizing", "https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/"],
-						]
-					},
-					skills: [
-						{
-							name: "Margin Collapsing",
-							description: {
-								text: "Learn about margin collapsing.",
-								links: [
-									["MDN - Mastering margin collapsing", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing"],
-									["Margin Collapse in CSS: What, Why, and How", "https://medium.com/@joseph0crick/margin-collapse-in-css-what-why-and-how-328c10e37ca0"],
-									["CSS Tricks - What You Should Know About Collapsing Margins", "https://css-tricks.com/what-you-should-know-about-collapsing-margins/"],
-									["What's the Deal with Collapsible Margins?", "https://bitsofco.de/collapsible-margins/"],
-									["What’s the Deal with Margin Collapse?", "https://jonathan-harrell.com/whats-the-deal-with-margin-collapse/"],
-								]
-							},
-						}
-					]
-				},
-				/*{
-					name: "Overflow",
-					description: {
-						text: "Learn about what happens when there is too much content to be contained comfortably inside a box and how to manage it.",
-						links: [
-							["MDN - Overflowing content", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Overflowing_content"],
-							["W3Schools - CSS Layout: Overflow", "https://www.w3schools.com/css/css_overflow.asp"],
-							["Overflow In CSS", "https://ishadeed.com/article/overflow-css/"]
-						]
-					},
-				},*/
-				{
-					name: "Colors",
-					description: {
-						text: "Learn the different ways you can define colors in CSS.",
-						links: [
-							["MDN - Color", "https://developer.mozilla.org/en-US/docs/Web/CSS/color"],
-							["MDN - <color>", "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value"],
-							["W3Schools - CSS Colors", "https://www.w3schools.com/css/css_colors.asp"],
-						]
-					},
-				},
-				{
-					name: "Calc",
-					description: {
-						text: "Learn how to use the CSS calc function.",
-						links: [
-							["MDN - Calc", "https://developer.mozilla.org/en-US/docs/Web/CSS/calc"],
-							["CSS Tricks - A Couple of Use Cases for Calc()", "https://css-tricks.com/a-couple-of-use-cases-for-calc/"],
-						]
-					},
-				},
-				{
-					name: "Layout",
-					description: {
-						text: "Learn the different layout types for web.",
-						links: [
-							["Chrome Dev - Basic Layout", "https://developers.google.com/training/certification/mobile-web-specialist/study-guide/basic-layout"],
-							["W3Schools - CSS Website Layout", "https://www.w3schools.com/css/css_website_layout.asp"],
-							["MDN - Document and website structure", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure"],
-							["MDN - CSS layout", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout"],
-						]
-					},
-					skills: [
-						{
-							name: "Flex",
-							description: {
-								text: "Learn how to create layouts using flexbox.",
-								links: [
-									["MDN - Flexbox", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox"],
-									["A Complete Guide to Flexbox", "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"],
-									["MDN - Flexbox", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox"],
-									["Flexbox Froggy", "https://flexboxfroggy.com/"],
-									["Flexbox Defense", "http://flexboxdefense.com"],
-								]
-							},
-						},
-						{
-							name: "Grid",
-							description: {
-								text: "Learn how to create layouts using CSS Grid.",
-								links: [
-									["MDN - Grids", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids"],
-									["A Complete Guide to CSS Grid", "https://css-tricks.com/snippets/css/complete-guide-grid/"],
-									["MDN - CSS Grid", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout"],
-									["CSS Grid Garden", "https://cssgridgarden.com/"],
-									["Supercharged - CSS Grids", "https://www.youtube.com/watch?v=AqwPrR7hklE"]
-								]
-							},
-						}
-					]
-				},
-				{
-					name: "Transforms",
-					description: {
-						text: "Learn the different ways to transform elements through CSS.",
-						links: [
-							["MDN - transform", "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"],
-							["CSS Tricks - Transform", "https://css-tricks.com/almanac/properties/t/transform/"],
-						]
-					},
-					skills: [
-						{
-							name: "Animations",
-							description: {
-								text: "Learn how to animate elements through CSS using keyframes.",
-								links: [
-									["MDN - Using CSS animations", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations"],
-									["CSS Tricks - Animation", "https://css-tricks.com/almanac/properties/a/animation/"],
-								]
-							},
-						}
-					]
-				},
-				{
-					name: "Responsive Design",
-					description: {
-						text: "Learn how to make your website responsive so it works across different screen sizes.",
-						links: [
-							["MDN - Responsive design", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"],
-							["Responsive Web Design Fundamentals by Google", "https://www.udacity.com/course/responsive-web-design-fundamentals--ud893"],
-							["Google Dev - Responsive Design", "https://developers.google.com/web/fundamentals/design-and-ux/responsive"],
-							["Google Dev - UX Patterns", "https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns"],
-							["Google Dev - Responsive Content", "https://developers.google.com/web/fundamentals/design-and-ux/responsive/content"],
-							["Codelabs - Responsive Design", "https://codelabs.developers.google.com/codelabs/pwa-responsive-design/index.html?index=..%2F..dev-pwa-training#0"],
-						]
-					},
-					skills: [
-						{
-							name: "Media Queries",
-							description: {
-								text: "Learn how use media queries to build responsive layout.",
-								links: [
-									["CSS Tricks - CSS Media Queries & Using Available Space", "https://css-tricks.com/css-media-queries/"],
-									["MDN - Using media queries", "https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries"],
-									["MDN - Using Media Queries for Accessibility", "https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_Media_Queries_for_Accessibility"],
-								]
-							},
-						},
-						{
-							name: "Relative Units",
-							description: {
-								text: "Learn how to use relative units for properties such as font sizes and spacing.",
-								links: [
-									["MDN - Sizing items in CSS", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS"],
-									["MDN - CSS values and units", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units"],
-									["The CSS Workshop - Relative Units", "https://thecssworkshop.com/lessons/relative-units"],
-									["CSS Tricks - Fun with Viewport Units", "https://css-tricks.com/fun-viewport-units/"],
-									["dev.to - 15 CSS Relative units", "https://dev.to/bytegasm/15-css-relative-units-how-many-do-you-know-em-rem-ex-cap-ch-ic-6m"],
-								]
-							},
-						},
-						{
-							name: "Images",
-							description: {
-								text: "Learn how to make images responsive, always showing the best possible version for the screen size.",
-								links: [
-									["Google Devs - Responsive Images", "https://developers.google.com/web/fundamentals/design-and-ux/responsive/images"],
-									["MDN - Responsive Images", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images"],
-								]
-							}
-						}
-					]
-				},
-				{
-					name: "CSS Variables",
-					description: {
-						text: "Learn how to define and use CSS variables.",
-						links: [
-							["MDN - Using CSS custom properties", "https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties"],
-							["Google Devs - CSS Variables: Why Should You Care?", "https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care"],
-							["dev.to - CSS Quickies: CSS Variables", "https://dev.to/lampewebdev/css-quickies-css-variables-or-how-you-create-a-white-dark-theme-easily-1i0i"],
-							["CSS Variables explained with 5 examples", "https://codeburst.io/css-variables-explained-with-5-examples-84adaffaa5bd"],
-						]
-					}
-				},
-				{
-					name: "Best Practices",
-					description: {
-						text: "Learn the best practices of writing CSS.",
-						links: [
-							["MDN - CSS guidelines", "https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/CSS"],
-							["MDN - Organizing your CSS", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing"],
-							["Speckyboy - Good and bad CSS practices", "https://speckyboy.com/good-bad-css-practices/"],
-						]
-					}
-				}
 			]
 		},
 		{
