@@ -612,207 +612,188 @@ export const fundamentalsCollection = {
 			]
 		},
 		{
-			name: "The Browser",
+			name: "4학년",
 			skills: [
 				{
-					name: "Standardization",
+					name: "4학년",
 					description: {
-						text: "Learn why web standards are important and how new specifications are standardised.",
+						text: "충북대학교 소프트웨어학과 4학년 커리큘럼입니다.",
 						links: [
-							["Wikipedia - Web Standards", "https://en.wikipedia.org/wiki/Web_standards"],
-							["What Are Web Standards?", "https://www.elcom.com.au/resources/blog/web-standards"],
-							["A Comprehensive Explanation of Web Standards", "https://robertnyman.com/2007/05/21/what-are-web-standards-a-comprehensive-explanation-of-what-is-comprised-in-the-term/"],
+							["충북대학교 - 소프트웨어학과", "https://software.cbnu.ac.kr/"],
+							["교과목개요", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
+							["표준이수모형", "https://software.cbnu.ac.kr/bbs/bbs.php?task=view&db=data02&no=5048&page=1&search=&searchKey=&category=&pgID=ID13304171142"],
 						]
 					},
 					skills: [
 						{
-							name: "W3C",
+							name: "1학기",
 							description: {
-								text: "Learn what W3C are doing and how they are moving the web forward.",
-								links: [
-									["W3C - About", "https://www.w3.org/standards/about.html"],
-									["W3C - Standards", "https://www.w3.org/standards/"],
-									["W3C - Process", "http://webdiy.org/w3c/"],
-									["Web Standards Guide", "https://www.smashingmagazine.com/2019/01/web-standards-guide/"],
-									["W3C - Groups", "https://www.w3.org/community/groups/"],
-									["The W3C At Twenty-Five", "https://www.smashingmagazine.com/2019/10/happy-birthday-w3c/"],
-								]
-							}
-						},
-						{
-							name: "TC39",
-							description: {
-								text: "Learn what TC39 are doing and how they are moving the web forward.",
-								links: [
-									["The TC39 process for ECMAScript features", "https://2ality.com/2015/11/tc39-process.html"],
-									["Github - TC39", "https://github.com/tc39"],
-									["Ecma International - Programme of work", "https://www.ecma-international.org/memento/tc39.htm"],
-									["Wikipedia - Ecma International", "https://en.wikipedia.org/wiki/Ecma_International"],
-								]
+								text: "4학년 1학기 과정입니다.",
+							
 							},
-						},
-						{
-							name: "WHATWG",
-							description: {
-								text: "Learn what WHATWG are doing and how they are moving the web forward.",
-								links: [
-									["WHATWG - FAQ", "https://whatwg.org/faq"],
-									["WHATWG - Standards", "https://spec.whatwg.org/"],
-									["MDN - WHATWG", "https://developer.mozilla.org/en-US/docs/Glossary/WHATWG"],
-									["W3C vs. WHATWG HTML5 Specs", "https://dzone.com/articles/w3c-vs-whatwg-html5-specs"],
-									["WHATWG - HTML", "https://html.spec.whatwg.org/"],
-									["Wikipedia - WHATWG", "https://en.wikipedia.org/wiki/WHATWG"],
-								]
-							}
-						},
-						{
-							name: "Specifications",
-							description: {
-								text: "Learn how to read specifications developed by the standards committees.",
-								links: [
-									["How to Read the ECMAScript Specification", "https://timothygu.me/es-howto/"],
-									["How to Read W3C Specs", "https://alistapart.com/article/readspec/"],
-									["Learning CSS by reading specs", "https://www.chenhuijing.com/blog/learning-css-by-reading-specifications/"],
-									["Understanding the CSS Specifications", "https://www.w3.org/Style/CSS/read.en.html"],
-								]
-							},
-						}
-					]
-				},
-				{
-					name: "Browser Engines",
-					description: {
-						text: "Learn what a browser engine is and get an overview of the browser landscape and market share.",
-						links: [
-								["Medium - Browser Engines", "https://medium.com/@jonbiro/browser-engines-chromium-v8-blink-gecko-webkit-98d6b0490968"],
-								["Wikipedia - Comparison", "https://en.wikipedia.org/wiki/Comparison_of_browser_engines"],
-								["HTML5 Rocks - How Browsers Work", "https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/"],
-								["Demystifying Browsers", "https://textslashplain.com/2020/02/09/demystifying-browsers/"],
-						]
-					},
-					skills: [
-						{
-							name: "Webkit",
-							description: {
-								text: "Learn about the Webkit browser engine.",
-								links: [
-									["Webkit", "https://webkit.org/"]
-								]
-							}
-						},
-						{
-							name: "Blink",
-							description: {
-								text: "Learn about the Blink browser engine.",
-								links: [
-									["Blink", "https://en.wikipedia.org/wiki/Blink_(browser_engine)"],
-								]
-							}
-						},
-						{
-							name: "Gecko",
-							description: {
-								text: "Learn about the Gecko browser engine.",
-								links: [
-									["Gecko", "https://en.wikipedia.org/wiki/Gecko_(software)"]
-								]
-							}
-						}
-					]
-				},
-				{
-					name: "HTTP",
-					description: {
-						text: "Learn how data is distributed through the HTTP protocol.",
-						links: [
-							["MDN - HTTP", "https://developer.mozilla.org/en-US/docs/Web/HTTP"],
-							["MDN - HTTP Glossary", "https://developer.mozilla.org/en-US/docs/Glossary/HTTP"],
-							["MDN - An overview of HTTP", "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"],
-							["Wikipedia - Hypertext Transfer Protocol", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol"],
-						]
-					}
-				},
-				{
-					name: "The Internet",
-					description: {
-						text: "Learn the basics of how the internet works.",
-						links: [
-							["MDN - How does the Internet work?", "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work"],
-							["Youtube - How the Internet Works in 5 Minutes", "https://www.youtube.com/watch?v=7_LPdttKXPc"],
-							["Explain That Stuff - Internet", "https://www.explainthatstuff.com/internet.html"],
-							["Stanford - How Does the Internet Work?", "https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm"],
-							["How the Internet Works", "https://blog.hubspot.com/marketing/how-the-internet-works"],
-						]
-					}
-				},
-				{
-					name: "Polyfills",
-					description: {
-						text: "Learn how it is possible to use polyfills to increase the browser support for your website.",
-						links: [
-							["MDN - Polyfill", "https://developer.mozilla.org/en-US/docs/Glossary/Polyfill"],
-							["Introduction To Polyfills & Their Usage", "https://medium.com/beginners-guide-to-mobile-web-development/introduction-to-polyfills-their-usage-9cd6db4b1923"],
-							["W3C - Polyfills and the evolution of the Web", "https://www.w3.org/2001/tag/doc/polyfills/"],
-							["Can I use", "http://caniuse.com/"],
-						]
-					}
-				},
-				{
-					name: "Debugging",
-					description: {
-						text: "Learn about the basics concepts of debugging.",
-						links: [
-							["Google Devs - Inspect and Edit Pages and Styles", "https://developers.google.com/web/tools/chrome-devtools/inspect-styles/"],
-							["MDN - Cross browser testing", "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing"],
-							["5 things to remember for better debugging of your code", "https://medium.com/dev-bits/5-things-to-remember-for-better-debugging-of-your-code-94b9bc3fb3df"],
-						]
-					},
-					skills: [
-						{
-							name: "Developer console",
-							description: {
-								text: "Learn how to use the developer console to debug your code.",
-								links: [
-									["MDN - Console", "https://developer.mozilla.org/en-US/docs/Web/API/Console"],
-									["Google Devs - Console API Reference", "https://developers.google.com/web/tools/chrome-devtools/console/api"],
-									["Google Devs - Get Started with Chrome DevTools", "https://developers.google.com/web/tools/chrome-devtools/javascript"],
-									["Google Devs - Console Utilities API Reference", "https://developers.google.com/web/tools/chrome-devtools/console/utilities"],
-									["MDN - Debugging CSS", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS"],
-									["MDN - Debugging HTML", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML"],
-									["javascript.info - Debugging in Chrome", "https://javascript.info/debugging-chrome"],
-									["14 JavaScript debugging tips", "https://raygun.com/javascript-debugging-tips"],
-									["The definitive guide to debugging JavaScript", "https://flaviocopes.com/javascript-debugging/"],
-									["Youtube - Chrome DevTools 101", "https://www.youtube.com/watch?v=H0XScE08hy8"],
-									["Chrome Devs - Quickly monitor events", "https://developers.google.com/web/updates/2015/05/quickly-monitor-events-from-the-console-panel"],
-									["Youtube - 14 Must Know Chrome Dev Tools Tricks", "https://www.youtube.com/watch?v=xkzDaKwinA8"]
-								]
-							},
-							/*skills: [
+							skills: [
 								{
-									name: "Console API",
+									name: "캡스톤디자인",
 									description: {
-										text: "Learn how to use the console API.",
+										text: "컴퓨터과학의 기본 이론을 바탕으로 팀을 구성하여 주제를 선정하고, 프로젝트 진행 방법을 계획하여, 최종 결과물을 도출하기까지의 프로세스를 체계적으로 준수하면서 팀 기반의 프로젝트 수행을 경험한다.",
+	
 										links: [
-											["MDN - Console", "https://developer.mozilla.org/en-US/docs/Web/API/Console"],
-											["Google Devs - Console API Reference", "https://developers.google.com/web/tools/chrome-devtools/console/api"],
+											["네이버 지식백과 - 캡스톤디자인", "https://terms.naver.com/entry.naver?docId=2066542&cid=50305&categoryId=50305"],
 										]
 									}
-								}
-							]*/
+								},
+								{
+									name: "임베디드시스템",
+									description: {
+									text: "ARM기반 임베디드 시스템의 구조 및 시스템 소프트웨어 동작에 대해 학습하고, 리눅스 포팅, 부트로더, 디바이스 드라이버 작성 등의 실습 프로젝트를 수행한다.",
+									links: [
+											["위키백과 - 임베디드시스템", "https://ko.wikipedia.org/wiki/%EC%9E%84%EB%B2%A0%EB%94%94%EB%93%9C_%EC%8B%9C%EC%8A%A4%ED%85%9C"],
+											["네이버 지식백과 - 임베디드 운영체제란", "https://terms.naver.com/entry.naver?docId=3432666&cid=58458&categoryId=58458"],
+											]
+											},
+								},
+											
+								{
+									name: "영상처리",
+									description: {
+										text: "디지털 영상처리에 대한 기본적인 지식과 함께 관련 분야에의 응용에 대한 기술을 심화한다. 그리고 최근의 영상처리이론과 연구결과를 접함으로써 선진 기술들에 대한 이해의 폭을 넓힌다.",
+										links: [
+												["위키백과 - 영상처리", "https://ko.wikipedia.org/wiki/%EC%98%81%EC%83%81_%EC%B2%98%EB%A6%AC"],
+												["위키백과 - 컴퓨터비전", "https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0_%EB%B9%84%EC%A0%84"],
+												]
+												}
+								},
+								{
+									name: "빅데이터시스템설계",
+									description: {
+										text: "빅데이터시스템에서 데이터 전처리와 플랫폼, 그리고 정형 및 비정형의 빅데이터 수집, 저장, 분석과 탐색, 공유, 전파, 시각화, 질의, 갱신 등의 방법에 대한 이론과 실무를 학습한다.",
+										links: [
+												["위키백과 - 빅데이터", "https://ko.wikipedia.org/wiki/%EB%B9%85_%EB%8D%B0%EC%9D%B4%ED%84%B0"],
+												]
+												},
+								},
+															
+								{
+									name: "기계학습",
+									description: {
+										text: "데이터로부터 패턴을 추천하는 기계학습에 대한 핵심적인 원리를 소개한다. 지도학습, 비지도학습, 강화학습의 기본 개념을 소개하며, 주요 기계학습 알고리즘과 딥러닝 기법을 다룬다.",
+										links: [
+												["위키백과 - 기계학습", "https://ko.wikipedia.org/wiki/%EA%B8%B0%EA%B3%84_%ED%95%99%EC%8A%B5"],
+												["네이버 지식백과 - 머신러닝", "https://terms.naver.com/entry.naver?docId=3386834&cid=58369&categoryId=58369"],
+												]
+												}
+								},
+								{
+									name: "컴퓨터교재연구",
+									description: {
+									text: "(교직이수 대상과목) 컴퓨터 교과지도에 필요한 능력을 배양하고 컴퓨터와 그 응용에 관하여 지식을 습득하게 하며 기초적인 프로그래밍 실무를 익힐 수 있는 교재를 연구한다.",
+									links: []
+												},
+								},
+								{
+									name: "창업산학세미나1",
+									description: {
+									text: "산업체와 학교의 교류를 통한 기업가 정신, 최신 IT기술 동향 및 산업체의 경영철학과 경영방법을 습득한다.",
+									links: [
+											["충북대 전자정보대학 - 전정대소식", "https://blog.naver.com/cbnuece/221253000358"],
+						
+											]
+											},
+								},
+											
+							
+							]
 						},
-						/*{
-							name: "Breakpoints",
+						{
+							name: "2학기",
 							description: {
-								text: "Learn how to add breakpoints to your code.",
+								text: "4학년 2학기 과정입니다.",
 								links: [
-									["Google Devs - How To Pause Your Code", "https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints"],
-									["Debugging Javascript Like a Pro", "https://blog.bitsrc.io/debugging-javascript-like-a-pro-a2e0f6c53c2e"],
+									
 								]
-							}
-						}*/
+							},
+							skills: [
+								{
+									name: "창업파일럿프로젝트",
+									description: {
+										text: "산업체와 학교의 교류를 통한 최신 IT기술 동향 및 산업체의 경영철학과 경영방법을 습득한다.",
+										links: [
+											
+										]
+									}
+								},
+								{
+									name: "정보검색",
+									description: {
+										text: "정보 표현 및 저장 방법, 문헌 질의와 매칭과정, 텍스트 분석, 정보검색 검색효과 측정, 효과성 향상기법 등을 포함한 대량 정보의 조직적인 저장, 관리, 검색, 마이닝 기법에 대한 이론과 방법을 학습한다.",
+										links: [
+												["위키백과 - 정보검색", "https://ko.wikipedia.org/wiki/%EC%A0%95%EB%B3%B4_%EA%B2%80%EC%83%89"],
+												
+												]
+											}
+								},
+								{
+										name: "자연어처리",
+										description: {
+												text: "사람이 사용하는 언어를 컴퓨터가 이해하여 지능적으로 처리하기 위한 다양한 알고리즘을 학습한다. ",
+												links: [
+														["위키백과 - 자연어처리", "https://ko.wikipedia.org/wiki/%EC%9E%90%EC%97%B0%EC%96%B4_%EC%B2%98%EB%A6%AC"],
+															
+														]
+													}
+								},
+								{
+										name: "빅데이터분석시각화",
+										description: {
+											text: "이 강좌에서 수집된 데이터를 보다 쉽게 이해할 수 있도록 시각화는 대표적인 방법을 공부한다. 공부할 시각화 기법으로는 시간 시각화, 연계 시각화, 비교시각화, 분포시각화, 공간시각화 등이 있다.",
+											links: [
+													["위키백과 - 데이터시각화", "https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%8B%9C%EA%B0%81%ED%99%94"],
+													["네이버 지식백과 - 빅데이터 분석기술", "https://terms.naver.com/entry.naver?docId=3331553&cid=57613&categoryId=57613"],
+													]
+													},
+								},
+													
+								{
+										name: "창업산학세미나2",
+										description: {
+												text: "산업체와 학교의 교류를 통한 기업가 정신, 최신 IT기술 동향 및 산업체의 경영철학과 경영방법을 습득한다.",
+												links: [
+														["충북대 전자정보대학 - 전정대소식", "https://blog.naver.com/cbnuece/221253000358"],
+														]
+															}
+								},
+								{
+										name: "컴퓨터교육론",
+										description: {
+											text: "(교직이수 대상과목) 컴퓨터에 관한 교육과 컴퓨터를 이용한 교육의 이론과 실제를 학습한다. 컴퓨터 교과의 역사적 배경, 컴퓨터 교과교육의 목표, 중·고등학교 교육과정의 분석 등 중등과정의 정보·컴퓨터 교육의 전반에 관하여 학습한다.",
+											links: [
+																	
+																	
+																	]
+												},
+								},
+													
+												
+								{
+										name: "클라우드컴퓨팅",
+										description: {
+											text: "본 수업은 클라우드에 대한 상세한 개념과 IaaS, PaaS, SaaS, BPaaS과 같은 다양한 클라우드 서비스 모델에 대해 다룬다. 학생들은 Amazon Elastic Cloud, Microsoft’s Azure, Google App Engine을 활용한 프로젝트를 통해서 실질적인 경험을 얻을 수 있다.",
+											links: [
+													["위키백과 - 클라우드컴퓨팅", "https://ko.wikipedia.org/wiki/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C_%EC%BB%B4%ED%93%A8%ED%8C%85"],
+													["네이버 지식백과 - 클라우드컴퓨팅 기술", "https://ko.wikipedia.org/wiki/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C_%EC%BB%B4%ED%93%A8%ED%8C%85"],
+															
+													]
+													}
+								},
+											
+															
+								
+							]
+						}
 					]
 				}
 			]
 		}
+
 	]
 }
