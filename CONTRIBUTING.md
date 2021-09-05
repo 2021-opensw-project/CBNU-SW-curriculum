@@ -1,26 +1,90 @@
-## Contributing
+# 기여하기
 
-You are more than welcome to contribute to `web-skills` in any way you please, including:
+여러분의 컨트리뷰트를 언제나 환영합니다!   
 
-* Updating documentation.
-* Fixing spelling and grammar.
-* Adding tests.
-* Fixing issues and suggesting new features.
-* Blogging, tweeting, and creating tutorials linking to `http://andreasbm.github.io/web-skills`.
-* Reaching out to [@andreasmehlsen](https://twitter.com/andreasmehlsen) on Twitter.
-* Submit an issue or a pull request.
+기여를 하기 전 아래의 가이드라인을 꼭 확인해주시길 바랍니다.   
 
-If you want to make some changes to `web-skills` you are very welcome to open a PR with the additions. I can't promise that every PR will get merged, but I'll try to respond to everyone.
+# 가이드라인
 
-## Getting Started
+## 기본 작업 흐름
 
-You can find all of the data in the `data` folder. Here, you'll find that skills are part of areas and areas are part of collections. I'll encourage you to get familiar with the structure of the data before getting your hands dirty.
+### 1. 이슈 생성❗️
 
-In the `assets` folder you can find all of the images for the skills. The path of the images follows a naming convention based on the collection and area the skill is a part of which is `assets/{{ collection_name }}/{{ area_name }}/{{ skill_name }}.svg`. As an example, the image for the skill "Relational Databases" which is a part of the area "Databases" which is a part of the collection "Databases & Servers" is located at `assets/databases-and-servers/databases/relational-databases.svg`. The design with all assets is located in the `design/design.sketch` file. If you can't open the file you can add the new image to the correct path in the `assets` folder instead. I'll make sure to add it to the sketch file.
+- 모든 작업은 **이슈 기반**으로 이루어집니다.
+- 작업을 하기 전 반드시 이슈를 **먼저** 생성합니다.
+    - 이슈를 생성할 때 미리 정해진 **이슈 템플릿**을 사용해주세요(이슈 생성 시 고를 수 있습니다.).
+    - 템플릿 어디에도 해당하지 않는 작업이라면 **카카오톡 단체 채팅방에서** 새 템플릿 생성에 대해 논의합니다.
+- 이슈는 **To do list** 형식으로 작성합니다.
+- 여러 파일을 건드리는 경우 변경 대상이 되는 파일명도 상세히 기제합니다.
 
-To serve the website locally you'll need to run `npm run s`. This will spin up a local dev server and open the browser.
+### 2. 브랜치 생성🌱
 
-If you have any questions feel free to open an issue or send a PM to [@andreasmehlsen](https://twitter.com/andreasmehlsen) on Twitter.
+- 이슈 생성 후에 자신이 작업할 브랜치를 `master` 브랜치에서 분기시킵니다.
+- 브랜치 명명 규칙은 아래를 참고해주세요.
 
+### 3. Pull Request 생성📬
 
+- `master` 브랜치에 직접 `push`하는 것은 원칙적으로 금지합니다🚫
+- PR의 단위는 **커밋 하나**를 권장합니다. 필연적으로 여러 커밋을 만들어야 할 때는 여러 PR로 나눠주세요.
+- PR 제목은 커밋 제목(마지막 커밋 제목)을 그대로 사용합니다.
+- 이미 만든 PR을 수정해야 할 경우, 수정 커밋을 붙이지 않고 `force push`로 기존 커밋을 수정합니다.
 
+### 4. master 브랜치 병합🔀
+
+- PR이 머지되려면 두 명 이상의 승인이 필요합니다.
+- 다른 팀원들은 반드시 **변경 내역**을 꼼꼼히 확인한 후 PR을 승인합니다.
+- PR을 병합할 때는 `Merge commit` 을 생성합니다.
+
+## 브랜치 명명 규칙
+
+Git 브랜치를 효과적으로 나누고, 관리하기 위해서 브랜칭 전략으로 `GitHub-flow`를 사용합니다.  
+
+브랜치 이름은 다음과 같이 작성합니다.
+
+|내용|브랜치 이름 규칙|   
+| :-: | :-: |   
+|기능 수정|feature/[issue number]-[feature name]|   
+|버그 수정|bugfix/[issue number]-[bugfix name]|   
+|급한 버그 수정|hotfix/[issue number]-[hotfix name]|   
+|문서 수정|docs/[issue number]-[docs name]  
+
+## Commit message 작성 규칙
+
+_모든 커밋메세지는 한글로 작성합니다._
+
+### 메시지 구조
+
+커밋 메시지는 크게 **제목**, **본문** 두 가지 영역으로 구성되며, 각 영역은 빈줄을 두어서 구분합니다.
+
+```
+`[이모지] [커밋 제목] (#이슈번호)` -> 제목
+(한 줄을 띄워 분리합니다.)
+본문 
+```
+
+* 본문 : 긴 설명이 필요한 경우에 작성합니다. 무엇을 왜 했는지를 작성합니다. 최대 75자를 넘기지 않도록 합니다. 
+
+### 본문은 어떻게 작성하는가
+
+본문은 다음의 규칙을 지켜야합니다.
+
+1. 본문은 **한 줄 당 72자 내**로 작성합니다.
+2. 본문 내용은 양에 구애받지 않고 **최대한 상세히 작성**합니다.
+3. 본문 내용은 어떻게 변경했는지 보다 **무엇을 변경했는지** 또는 **왜 변경했는지**를 설명합니다.
+
+### 커밋 제목 작성 규칙
+
+- `[이모지] [커밋 제목] (#이슈번호)` 형식으로 작성합니다. 예: `"📖  커밋 제목 작성 규칙 추가 (#3)"`
+- 제목은 **개조식**으로 작성합니다.
+- 제목은 **50자 내외**로 작성합니다.
+- 마침표는 붙이지 않습니다.
+- 이슈 라벨로 작업 내용을 분류하므로 프리픽스 대신 이모지를 사용합니다.
+
+### 이모지 사용법
+
+|이모지|커밋타입|
+|:-:|:-:|
+|🐛|버그 수정|
+|📝|문서 작성|
+|✨|기능 개발|
+|♻️|코드 리펙토링|
