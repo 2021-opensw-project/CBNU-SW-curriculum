@@ -2,92 +2,68 @@ export const fundamentalsCollection = {
 	name: "Fundamentals",
 	areas: [
 		{
-			name: "HTML",
-			skills: [
-				{
-					name: "Syntax",
-					description: {
-						text: "Learn the basics of HTML and get comfortable with it's syntax and main concepts.",
-						links: [
-							["MDN - HTML Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"],
-							["MDN - Introduction to HTML", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML"],
-							["Codecademy - Learn HTML", "https://www.codecademy.com/learn/learn-html"],
-						]
-					},
-					skills: [
-						{
-							name: "Basic Tags",
-							description: {
-								text: "Get familiar with the basic HTML tags",
-								links: [
-									["MDN - HTML elements reference", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element"],
-									["Tutorialspoint - Basic HTML tags", "https://www.tutorialspoint.com/html/html_basic_tags.htm"],
-									["Elated - First 10 HTML tags", "https://www.elated.com/first-10-html-tags/"],
-									["W3Schools - HTML tags", "https://www.w3schools.com/tags/ref_byfunc.asp"]
-								]
-							},
-						},
-					]
-				},
-				{
-					name: "Forms",
-					description: {
-						text: "Learn how to design efficient forms, validating them effectively and keeping the user informed along the way.",
-						links: [
-							["MDN - HTML forms", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms"],
-							["Google Web - Forms", "https://developers.google.com/web/fundamentals/design-and-ux/input/forms/"],
-							["W3Schools - Forms", "https://www.w3schools.com/html/html_forms.asp"],
-						]
-					}
-				},
-				{
-					name: "SEO",
-					description: {
-						text: "Learn how to make your content search-friendly.",
-						links: [
-							["web.dev - Discoverable", "https://web.dev/discoverable"],
-							["Google Search - Get Started", "https://developers.google.com/search/docs/guides/get-started"],
-							["Google Search - SEO basics", "https://developers.google.com/search/docs/guides/javascript-seo-basics"],
-							["web.dev - SEO audits", "https://web.dev/lighthouse-seo"]
-						]
-					},
-					skills: [
-						{
-							name: "Discoverable Content",
-							description: {
-								text: "Learn how to structure your HTML in a way that provides a rich experience when sharing it online.",
-								links: [
-									["Google Web - Social Discovery", "https://developers.google.com/web/fundamentals/discovery/social-discovery"],
-									["Google Search - Search Features", "https://developers.google.com/search/docs/guides/search-features"],
-									["Google Search - Structured Data", "https://developers.google.com/search/docs/guides/intro-structured-data"],
-									["web.dev - Easily discoverable", "https://web.dev/discoverable"]
-								]
-							}
-						}
-					]
-				},
-				{
-					name: "Svg",
-					description: {
-						text: "Learn how to work with SVG files to make graphics look crisp across all screen resolutions.",
-						links: [
-							["MDN - Adding vector graphics to the Web", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web"],
-							["SVG on the web", "https://svgontheweb.com/"],
-						]
-					}
-				},
-				{
-					name: "Best Practices",
-					description: {
-						text: "Learn the best practices of writing HTML.",
-						links: [
-							["MDN - HTML guidelines", "https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/HTML"],
-							["W3Schools - HTML Coding Conventions", "https://www.w3schools.com/html/html5_syntax.asp"]
-						]
-					}
-				}
-			]
-		},
+      name: "1학년",
+      skills: [
+        {
+          name: "1학년",
+          skills: [
+            {
+              name: "1학기",
+              description: {
+                text: "전공 필수 3학점, 전공 선택 3학점"
+              },
+
+              skills: [
+                {
+                  name: "이산수학",
+                  description: {
+                    text: "컴퓨터과학 및 디지털정보처리 분야의 수학적 기초가 되는 논리, 함수, 관계를 포함한 집합, 알고리즘, 수학적 귀납법 및 증명방법, 그래프, 트리, 부울 대수 등을 학습한다.",
+                  },
+                },
+                {
+                  name: "창의공학설계",
+                  description: {
+                    text: "여러 가지 다양한 문제의 해결 과정을 통해서 참여 학생의 창의적 능력을 키우며, 문제의 해결에 대한 능력 향상과 함께 팀활동을 체험한다.",
+                  },
+                },
+                {
+                  name: "미래설계탐색",
+                  description: {
+                    text: "스트롱 직업흥미검사를 온라인으로 실시하고, 해석 워크샵을 그 결과를 알게함으로써 자신의 직업적 흥미 경향성을 알아보고, 지속적인 상담 및 지도를 통해 자기를 이해하고 개인 가치관을 확립한다.",
+                  },
+                }
+              ]
+            },
+            {
+              name: "2학기",
+              description: {
+                text: "전공 필수 5학점, 전공 선택 1학점"
+              },
+              skills: [
+                {
+                  name: "컴퓨터시스템개론",
+                  description: {
+                    text: "컴퓨터에 대한 기초 지식을 부여하는 과목으로서 하드웨어, 소프트웨어 및 Firmware의 기능을 정의하고 프로그램과 컴퓨터 상호간에 관계 및 문제의 해결을 컴퓨터로 처리하는 방법을 습득한다.",
+                  },
+                },
+                {
+                  name: `오픈소스소프트웨어이해와실습`,
+                  description: {
+                    text: "IT분야에서 활발하게 사용되고 있는 오픈소스소프트웨어의 종류, 올바른 활용방법, 개발환경의 구성, 다양한 응용 등에 대해 학습하여 오픈소스소프트웨어에 대한 이해를 높이고 기본적인 활용방법을 배운다."
+                  },
+                },
+                {
+                  name: "미래설계준비",
+                  description: {
+                    text: "4차 산업혁명과 관련된 다양한 기술을 소개하여 학생들의 리더십 함양과 창의성과 융합 마인드 함양을 목적으로 한다. 최신 산업 동향에 대해 배우고 미래 경력을 더 잘 계획할 수 있는 방법을 습득한다.",
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
 		{
 			name: "CSS",
 			skills: [
