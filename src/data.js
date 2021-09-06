@@ -1,3 +1,4 @@
+
 import {fundamentalsCollection} from "./data/fundamentals.js";
 import {webcomponentsCollection} from "./data/web-components.js";
 import {accessibilityCollection} from "./data/accessibility.js";
@@ -11,6 +12,7 @@ import {teamCollaborationCollection} from "./data/team-collaboration.js";
 import {algorithmsCollection} from "./data/algorithms.js";
 import {designAndUXCollection} from "./data/design-and-ux.js";
 import {databasesCollection} from "./data/databases.js";
+
 
 /**
  * All available collections.
